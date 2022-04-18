@@ -26,12 +26,12 @@ public class LoginPage extends TestBase {
 		driver.findElement(loginButtonLoc).click();
 
 		
-		 wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[text()='Senthil']")));
+		 wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[text()='Nalinikanta']")));
 		 
 //			isLoginSuccess = driver.findElement(By.xpath("//*[text()='Senthil']")).isDisplayed();
 		
 			isLoginSuccess = true;
-			System.out.println("Is Senthil Present: " + isLoginSuccess);
+			System.out.println("Is Nalinikanta Present: " + isLoginSuccess);
 			captureScreenshot("Login page");
 		
 		return isLoginSuccess;

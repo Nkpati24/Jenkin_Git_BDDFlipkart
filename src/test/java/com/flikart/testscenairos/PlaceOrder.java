@@ -27,7 +27,7 @@ public class PlaceOrder extends TestBase {
   @Test(priority = 0)
   public void validateLoginTest() { 
 	  loginPage = new LoginPage();
-	  boolean loginResult = loginPage.login("9094018902", "Asdf@1234");
+	  boolean loginResult = loginPage.login("mitu.pati24@gmail.com", "Nkpati@1997");
 	  Assert.assertTrue(loginResult);
   }
   
